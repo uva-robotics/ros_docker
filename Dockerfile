@@ -1,7 +1,6 @@
 # This is an auto generated Dockerfile for ros:ros-core
 # generated from docker_images/create_ros_core_image.Dockerfile.em
-# FROM ubuntu:xenial
-FROM nvidia/cuda:9.0-base-ubuntu16.04
+FROM ubuntu:xenial
 
 # install packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
